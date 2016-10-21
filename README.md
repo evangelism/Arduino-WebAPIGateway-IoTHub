@@ -5,16 +5,16 @@ This sample project demonstrates posting messages from Arduino board to IoT Hub 
 
 Для начала создаем в облаке свой IoT Hub (раздел "Интернет вещей"). После создания хаба скопируйте строку подключения:
 
-![Get Access Key](../images/IoTHub_AccessKeys.PNG)
+![Get Access Key](images/IoTHub_AccessKeys.PNG)
 
 Используйте и установите [Device Explorer](https://github.com/Azure/azure-iot-sdks/blob/master/tools/DeviceExplorer/doc/how_to_use_device_explorer.md). В нем введите
 строку подключения к IoT-хабу:
 
-![Device Explorer 1](../images/DeviceExplorer1.PNG)
+![Device Explorer 1](images/DeviceExplorer1.PNG)
 
 После этого перейдите на вкладку "Management" и добавьте новое устройство. Затем правой кнопкой нажмите на строку с устройством и выберите "Copy Connection String".
 
-![Device Explorer 2](../images/DeviceExplorer2.PNG)
+![Device Explorer 2](images/DeviceExplorer2.PNG)
 
 ## Разворачиваем в облаке WebAPI Gateway
 
